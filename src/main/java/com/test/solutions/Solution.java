@@ -36,7 +36,7 @@ public class Solution {
     public List<RepositoryInfo> getReposByStars () {
         List<RepositoryInfo> response = new ArrayList();
         Comparator<RepositoryInfo> repositoryInfoComparator = (RepositoryInfo x, RepositoryInfo y)
-                -> Integer.compare( y.getStargazers_count(), x.getStargazers_count());
+                -> Integer.compare(y.getStargazers_count(), x.getStargazers_count());
         int page = 1;
         while(true) {
             try {
