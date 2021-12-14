@@ -12,7 +12,7 @@ import java.net.http.HttpResponse;
 import java.util.*;
 
 /**
- * alan@segment.com
+ *
  */
 public class Solution {
 
