@@ -1,9 +1,9 @@
-package com.test.solutions.controller;
+package com.example.solutions.controller;
 
+import com.example.solutions.MessageService;
+import com.example.solutions.beans.Message;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.test.solutions.MessageService;
-import com.test.solutions.beans.Message;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

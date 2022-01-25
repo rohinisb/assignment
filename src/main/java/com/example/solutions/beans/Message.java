@@ -1,4 +1,4 @@
-package com.test.solutions.beans;
+package com.example.solutions.beans;
 
 public class Message {
 

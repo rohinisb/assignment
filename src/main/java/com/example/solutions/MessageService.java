@@ -1,6 +1,6 @@
-package com.test.solutions;
+package com.example.solutions;
 
-import com.test.solutions.beans.Message;
+import com.example.solutions.beans.Message;
 
 import java.util.List;
 
